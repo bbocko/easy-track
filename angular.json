@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-basics": {
+    "easy-track": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-basics",
+            "outputPath": "dist/easy-track",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-basics:build:production"
+              "buildTarget": "easy-track:build:production"
             },
             "development": {
-              "buildTarget": "angular-basics:build:development"
+              "buildTarget": "easy-track:build:development"
             }
           },
           "defaultConfiguration": "development"
